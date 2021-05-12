@@ -90,7 +90,7 @@ def print_matrix( matrix ):
         s+= '\n'
     print(s)
     
-#turn the paramter matrix into an identity matrix
+#turn the parameter matrix into an identity matrix
 #you may assume matrix is square
 def ident( matrix ):
     for r in range( len( matrix[0] ) ):
